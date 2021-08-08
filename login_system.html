@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="/login_system.css"> -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <title>Log In</title>
+    <style>
+        * {
+            font-family: 'Baloo Bhai 2', cursive;
+            font-size: 16px;
+        }
+
+        .login {
+            font-size: 16px;
+            /* border: 2px solid red; */
+
+        }
+
+        .sign_in {
+            margin: 10px;
+            padding: 10px;
+            font-size: 16px;
+            width: 250px;
+        }
+
+        .box {
+            display: flex;
+
+            justify-content: center;
+            /* border: 3px solid rgb(80, 76, 76); */
+            /* border-radius: 10px; */
+            border-top-right-radius: 35px;
+            border-bottom-left-radius: 35px;
+            height: 370px;
+
+            margin-top: -201px;
+            background-color: #fff;
+            margin-right: 13%;
+            margin-left: 57%;
+            box-shadow: grey;
+        }
+
+        #submt {
+            display: inline-block;
+            background-color: #1184f0;
+            border-radius: 10px;
+            text-decoration: none;
+            width: 275px;
+            cursor: pointer;
+            line-height: 48px;
+            padding: 0 10px;
+            position: relative;
+            text-align: center;
+            margin-top: 10px;
+            font-size: 22px;
+
+        }
+
+        #submit {
+            font-size: 22px;
+            text-decoration: none;
+            color: white;
+        }
+
+        #submt:hover {
+            background-color: #0093fc;
+        }
+
+
+        #new {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            background-color: #42b72a;
+            width: 275px;
+            cursor: pointer;
+            line-height: 48px;
+            /* /* margin-top: 10px; */
+            padding: 0 10px;
+            position: relative;
+            text-align: center;
+            /* border-left-width: 10px; */
+            margin-top: 10px;
+            font-size: 22px;
+
+        }
+
+        #new:hover {
+            background-color: #38db17;
+            vertical-align: middle;
+        }
+
+        .new {
+            width: 237px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* .outer{
+    background-color: black;
+} */
+        body {
+            /* background-color: rgb(211, 206, 206); */
+            background-color: #eee;
+        }
+
+        #forgot {
+            margin: 10px;
+            padding: 10px;
+            color: #1184f0;
+            font-size: 28px;
+            cursor: pointer;
+        }
+
+        #fpwd {
+            margin: 10px;
+            padding: 10px;
+            color: #1184f0;
+            font-size: 28px;
+            cursor: pointer;
+
+        }
+
+        #fpwd:hover {
+            text-decoration: underline;
+
+        }
+
+        #forgot:hover {
+            text-decoration: underline;
+        }
+
+        .fb_logo {
+            margin-left: 217px;
+            margin-top: 153px;
+            height: 80px;
+            width: 320px;
+            display: block;
+            /* border: 2px solid red; */
+        }
+
+        h2 {
+            /* font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif; */
+            font-size: 28px;
+            font-weight: normal;
+            line-height: 32px;
+            width: 553px;
+            /* border: 2px solid black; */
+            margin-left: 284px;
+        }
+
+        .page {
+            /* border: 2px solid green; */
+            display: inline-block;
+            margin-left: 932px;
+            padding: 10px;
+            margin-top: 10px;
+
+        }
+
+        #page {
+            text-decoration: none;
+            color: black;
+        }
+
+        #page:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            font-size: 35px;
+        }
+
+        #lower {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>FACKBOOK LOGIN SYSTEM CLONE</h1>
+    <div class="outer">
+        <img class="fb_logo" src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Facebook">
+
+        <h2>Facebook helps you connect and share with the people in your life.</h2>
+        <div class="box">
+            <form action="">
+                <div class="login">
+                    <input type="email" name="" id="myEmail" class="sign_in" placeholder="Enter Email Address">
+                </div>
+                <div class="login">
+                    <input type="password" name="" id="myPwd" class="sign_in" placeholder="Password">
+                </div>
+
+                <div id='submt'>
+
+                    <!-- <button type="button">Log IN</button> -->
+                    <a href="#" id="submit">Log IN</a>
+                </div>
+                <div id="forgot">
+                    <a id="fpwd" href="/forgot_password.html">Forgotten password?</a>
+                </div>
+                <hr>
+                <div class="new">
+                    <a href="/sign_up_system.html" id="new">Create New Account</a>
+                </div>
+            </form>
+        </div>
+
+        <div class="page">
+            <a href="#" id="page"><strong>Create Page</strong></a> for a celebrity, band or business.
+        </div>
+    </div>
+</body>
+
+</html>
